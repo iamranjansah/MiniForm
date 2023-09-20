@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signgup</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="leftnav cd-main-nav js-main-nav">
+            <ul class="cd-main-nav__list js-signin-modal-trigger">
+                <li><a href="/" target="_blank" rel="noopener noreferrer">Home</a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer">Info</a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer">Service</a></li>
+            </ul>
+
+        </div>
+        <div class="rightnav">
+            <ul>
+                <li><a href="/loginSignup.html" rel="noopener noreferrer">Login</a></li>
+                <li><a href="/loginSignup.html" rel="noopener noreferrer">SignUp</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="maincon">
+
+
+        <div class="container">
+            <!--Data or Content-->
+            <div class="box-1">
+                <div class="content-holder">
+                    <h2>Hello!</h2>
+
+                    <button class="button-1" onclick="signup()">Sign up</button>
+                    <button class="button-2" onclick="login()">Login </button>
+                    <button><a href="index.html">Back to Home</a> </button>
+                </div>
+            </div>
+
+
+            <!--Forms-->
+            <div class="box-2">
+                <div class="login-form-container">
+                    <h1>Login Form</h1>
+                    <input type="text" placeholder="Username" class="input-field">
+                    <br><br>
+                    <input type="password" placeholder="Password" class="input-field">
+                    <br><br>
+                    <button class="login-button" type="button"> <a href="Collections.html">Login</a></button>
+                </div>
+
+
+                <!--Create Container for Signup form-->
+                <div class="signup-form-container">
+                    <h1>Sign Up Form</h1>
+                    <input type="text" placeholder="Username" class="input-field">
+                    <br><br>
+                    <input type="email" placeholder="Email" class="input-field">
+                    <br><br>
+                    <input type="password" placeholder="Password" class="input-field">
+                    <br><br>
+                    <button class="signup-button" type="button"> <a href="loginSignup.html">Sign Up</a> </button>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+</body>
+
+</html>
